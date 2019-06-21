@@ -1,13 +1,20 @@
 <template>
-  <HelloWorld />
+  <div class="home-wrapper">
+    <MyStats />
+  </div>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+import MyStats from '../components/MyStats';
 
   export default {
     components: {
-      HelloWorld
+      MyStats
     }
   }
 </script>
+
+<style>
+
+</style>
+
